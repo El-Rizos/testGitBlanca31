@@ -1,0 +1,32 @@
+
+
+/* Al poner heigh: 100vh, le decimos que nos de el 100% de del pataño de la pantalla */
+
+.img_costume{
+    width: 100%;
+    
+}
+
+.carousel_costume{
+    width: 70%;
+}
+
+.custom_margin{
+    margin-top: 50px;
+
+}
+
+.carousel_j{
+    border: solid 3px orange;
+    width: 100%;
+    height: 1000px;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+
+
+
+

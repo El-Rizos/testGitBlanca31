@@ -1,0 +1,36 @@
+/* "css" es para darle formatos a html */
+
+*{
+background-color: rgb(57, 232, 255);
+}
+/* con el asterisco (*) le indico que me cambie todo el archivo, puedo cambiarlo por title, body, etc. y con la llave le indico que es lo que le modificará */
+
+h1{
+    font-size: 40px;
+    color: rgb(137, 0, 0);
+    text-align: center;
+    text-decoration-line: underline;
+}
+/* "font-size" es para cambiar el tamaño del texto */
+
+img{
+    width: 500px ;
+    height: 300px;
+}
+/* "width" es ancho y "height" es alto, en el caso de que la imagen no sea cuadrada, basta con especificar solo una dimension y la otra se ajusta al tamaño, o tambien colocandole el "auto" (automatico) */
+
+a{
+    text-decoration: none;
+    color: rgb(255, 0, 0)
+}
+/* "text-decoration" y none es para quitarle linea de subrayado,  */
+
+.StarWars{
+    width: 1000px;
+    height: auto;
+}
+/* Para referirme a una clase, antes del nombre se debe poner un punto (.) */
+
+.A{
+color: rgb(255, 0, 179)
+}

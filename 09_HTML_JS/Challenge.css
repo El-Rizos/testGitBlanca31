@@ -1,0 +1,40 @@
+body{
+    border: solid 1px red;
+}
+
+.player1{
+    border: solid 1px green;
+    width: 50%;
+    height: 400px;
+}
+
+.player2{
+    border: solid 1px blue;
+    width: 50%;
+    height: 400px;
+}
+
+.resultado{
+    border: solid 1px brown;
+    width: 100%;
+    height: 350px;
+}
+
+.img_costume{
+    width: 100px;
+}
+
+.ppt{
+    width: 50px;
+}
+
+.boton{
+    border: solid 1px black;
+    background-color: black;
+    color: white;
+    border-radius: 20px; 
+}
+
+.desaparecer{
+    display: none !important;
+}

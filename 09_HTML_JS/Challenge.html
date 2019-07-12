@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Link Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Link css -->
+  <link rel="stylesheet" href="./Challenge.css">
+
+
+  <title>Challenge JS-CSS</title>
+</head>
+
+<body>
+
+  <div class="d-flex justify-content-around flex-wrap">
+    <!-- Jugador 1 -->
+    <div class="player1 d-flex justify-content-center align-items-center flex-column">
+      <h1>Player 1<span class="badge badge-secondary">Choose</span></h1>
+      <div class="card" style="width: 18rem;">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item d-flex justify-content-around align-items-center">Piedra <img class="ppt"
+              src="https://img.freepik.com/vector-gratis/piedra-rodante_1308-18803.jpg?size=626&ext=jpg" alt=""> <button
+              id="piedra_player1" class="boton">Elegir</button></li>
+          <li class="list-group-item d-flex justify-content-around align-items-center">Papel <img class="ppt"
+              src="https://previews.123rf.com/images/cthoman/cthoman1508/cthoman150802417/43361924-una-ilustraci%C3%B3n-de-dibujos-animados-de-un-baile-de-papel-en-blanco-.jpg"
+              alt=""><button id="papel_player1" class="boton">Elegir</button></li>
+          <li class="list-group-item d-flex justify-content-around align-items-center">Tijera <img class="ppt"
+              src="https://media.istockphoto.com/vectors/vector-cartoon-scissors-icon-in-comic-style-scissor-sign-illustration-vector-id1017890300"
+              alt=""><button id="tijeras_player1" class="boton">Elegir</button></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Jugador 2 -->
+    <div class="player2 d-flex justify-content-center align-items-center flex-column">
+      <h1>Player 2<span class="badge badge-secondary">Choose</span></h1>
+      <div class="card" style="width: 18rem;">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item d-flex justify-content-around align-items-center">Piedra <img class="ppt"
+              src="https://img.freepik.com/vector-gratis/piedra-rodante_1308-18803.jpg?size=626&ext=jpg" alt=""> <button
+              id="piedra_player2" class="boton">Elegir</button></li>
+          <li class="list-group-item d-flex justify-content-around align-items-center">Papel <img class="ppt"
+              src="https://previews.123rf.com/images/cthoman/cthoman1508/cthoman150802417/43361924-una-ilustraci%C3%B3n-de-dibujos-animados-de-un-baile-de-papel-en-blanco-.jpg"
+              alt=""><button id="papel_player2" class="boton">Elegir</button></li>
+          <li class="list-group-item d-flex justify-content-around align-items-center">Tijera <img class="ppt"
+              src="https://media.istockphoto.com/vectors/vector-cartoon-scissors-icon-in-comic-style-scissor-sign-illustration-vector-id1017890300"
+              alt=""><button id="tijeras_player2" class="boton">Elegir</button></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Resultado -->
+    <div class="resultado d-flex justify-content-center align-items-center">
+      <div class="d-flex justify-content-center align-items-center flex-column">
+        <button id="ganador" class="boton">Resultado</button>
+        <div id="card" class="card d-flex justify-content-center align-items-center desaparecer" style="width: 18rem;">
+          <img id="ganaplayer1"
+            src="https://www.nintendo.com/content/dam/noa/en_US/games/wii-u/m/mario-kart-8-wii-u/360_490_game_detail_mario_kart_8.png"
+            class="card-img-top img_costume desaparecer" alt="...">
+            <img id="empate" class="img_costume desaparecer" src="https://vignette.wikia.nocookie.net/mario/images/d/d1/Spiny%2C_New_Super_Mario_Bros._2.png/revision/latest?cb=20121106023436" alt="">
+            <img id="ganaplayer2" class="img_costume desaparecer" src="https://vignette.wikia.nocookie.net/supersmashbrosfanon/images/8/8f/ManiaLuigi.png/revision/latest?cb=20130221154815" alt="">
+          <div class="card-body">
+            <p id="resultado" class="card-text">Resultado</p>
+          </div>
+          <button id="again" class="boton">Otra vez</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- link js -->
+  <script src="./Challenge.js"></script>
+
+</body>
+
+</html>

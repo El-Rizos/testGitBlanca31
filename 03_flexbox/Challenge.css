@@ -1,0 +1,130 @@
+main{
+    border: solid 3px green;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cuadro01{
+    border: solid 3px yellow;
+    width: 650px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.cuadro02{
+    border: solid 3px blue;
+    width: 650px;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cuadroa{
+    border: solid 3px pink;
+    width: 150px;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadrob{
+    border: solid 3px pink;
+    width: 150px;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadroc{
+    border: solid 3px pink;
+    width: 150px;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadrod{
+    border: solid 3px purple;
+    width: 150px;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadroe{
+    border: solid 3px purple;
+    width: 150px;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadrof{
+    border: solid 3px purple;
+    width: 150px;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.suba{
+    border: solid 3px red;
+    width: 100px;
+    height: 100px;
+
+}
+
+.subb{
+    border: solid 3px red;
+    width: 100px;
+    height: 100px;
+
+}
+
+.subc{
+    border: solid 3px red;
+    width: 100px;
+    height: 100px;
+
+}
+
+.subd{
+    border: solid 3px black;
+    width: 100px;
+    height: 100px;
+}
+
+.sube{
+    border: solid 3px black;
+    width: 100px;
+    height: 100px;
+}
+
+.subf{
+    border: solid 3px black;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,55 @@
+/* *{
+    background: coral
+} */
+
+body{
+    margin: 0%;
+    padding: 0;
+}
+
+.Parte_de_arriba{
+    border: solid 1px black;
+    width: 100%;
+    height: 60px;
+
+    padding-left: 1350px;
+}
+
+.links{
+    border: solid 1px blue;
+    width: 110px;
+    
+    margin: 20px;
+}
+
+.la_otra_parte{
+    border: solid 3px pink;
+    height: 700px;
+}
+
+.google{
+    border: solid 3px green;
+    margin-top: 120px;
+    margin-left: 650px;
+    padding: 10px;
+    width: 300px;
+}
+
+.input{
+    border: solid 2px rgb(0, 255, 242);
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 560px;
+
+}
+input{
+    width: 100%;
+}
+
+.Buscar{
+    border: solid 2px black;
+    width: 130px;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 650px;
+}

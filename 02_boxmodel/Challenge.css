@@ -1,0 +1,33 @@
+/* *{
+    background: red
+} */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.Navegacion{
+    border: solid 2px magenta;
+    width: 100%;
+    height: 100px;
+    padding-left: 1300px;
+
+
+}
+
+.links{
+    border: solid 1px orange;
+    width: 270px;
+    margin-top: 20px; 
+}
+
+.Imagen{
+    border: solid 1px blue;
+    width: 100px;
+    height: 100px;
+    margin-right: 1300px
+}
+
+
+

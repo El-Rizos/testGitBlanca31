@@ -1,0 +1,62 @@
+/* *{
+    background-color: aqua
+} */
+
+h1{
+    border: solid 2px yellow;
+    display: inline;
+    padding: 20px;
+    margin: 50px;
+    margin-right: 30px
+
+}
+
+h2{
+    border: solid 1px black;
+    /* width: 200px;
+    height: 200px; */
+    display: inline;
+}
+
+/* Los display , es decir las cajitas, son de dos tipos, los que pantalla completa que se llaman "block" y los que solo abarcarn el texto y se llaman display "in line". Display "in line" te deja colocar un display junto a otro pero no te deja modificar altura o anchura, y el block te deja modificarlo pero no poner un display junto a otro */
+
+.p1{
+    border: solid 1px black;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    margin: 0%;
+}
+
+.p2{
+    border: solid 1px black;
+}
+
+/* El display "in line-block" te deja usar las mejores caracteristicas de ambos, poder modificar el ancho y alto y poder poner mas displays junto a otros */
+
+a{
+    border: solid 1px black;
+    margin: 200px 200px 200px 200px;
+}
+/* Margin es para margenes, y tambien esta padding, etc. y si no quiero especificar que margin quiero, lo puedo hacer como las manecillas del reloj */
+
+
+.Seccion_1{
+    border: solid 1px red
+}
+/* "Border" es para agregar un borde a la seccion y se le puede dar 3 caracteristicas (tipo de linea en el borde, el ancho del borde y el color), de ancho tiene predeterminado toda la pantalla y de alto el contenido. Se le puede dar porcentaje al ancho pero al alto no */
+
+.Seccion_2{
+    border: solid 1px blue;
+    width: 50%;
+    height: 30px
+}
+
+.Seccion_3{
+    border: solid 5px orangered;
+    width: 100%;
+}
+
+
+
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap -->
+
+    <link rel="stylesheet" href="Style.css">
+
+    <title>HTML con JS</title>
+</head>
+
+<body>
+    <h1 id="etiqueta">Hola!</h1>
+    <p id="texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum distinctio tenetur nam. Officiis, ratione laborum eum, dolore deserunt quis sapiente nulla error, deleniti beatae corporis voluptas harum exercitationem itaque dolorem.</p>
+
+    
+
+    <button id = "button">Clickeame uwu</button>
+<br><br>
+
+    <input id="input" type="text" placeholder="Ingresa algo uwu">
+    <p id="p"></p>
+    <button id="mostrar">Otro boton xd</button>
+<br><br>
+
+
+<!-- Aqui empieza "card" del challenge#2 -->
+<div class="input_container">
+    <label for="input01">Nombre:</label>
+    <input id="input01" type="text" placeholder="Nombre">
+
+    <label for="input02">Telefono:</label>
+    <input id="input02" type="password" placeholder="Telefono">
+
+    <label for="input03">Piña?</label>
+    <input id="input03" type="text" placeholder="Escribe SI o NO">
+    <!-- En "label", se le pone al "for" el "id" del input para referenciarlo -->
+    <button id="boton_challenge">Saca los datos uwu</button>
+</div>
+
+<div id="card" class="card_container desaparecer">
+<div class="card mt-2" style="width: 20rem;">
+    <div class="card-body">
+      <h5 id="titulo" class="card-title">Nombre</h5>
+      <h6 id="subtitulo" class="card-subtitle mb-2 text-muted">Telefono</h6>
+      <p id="piña" class="card-text">Piña?</p>
+
+    </div>
+  </div>
+
+</div>
+
+    <script src="./Main.js"></script>
+</body>
+</html>
